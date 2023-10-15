@@ -25,3 +25,5 @@ def quickSort(A, left, right):
         quickSort(A, ridx+1, right)
 
 quickSort(arr, 0, len(arr)-1)
+# 출력
+print(arr)
